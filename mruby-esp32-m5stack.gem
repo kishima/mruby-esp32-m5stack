@@ -1,0 +1,7 @@
+name: mruby-esp32-m5stack
+description: Interface for M5Stack 
+author: KAGEYAMA Katsuhiko
+website: https://github.com/kishima/mruby-esp32-m5stack
+protocol: git
+repository: https://github.com/kishima/mruby-esp32-m5stack.git
+license: MIT
