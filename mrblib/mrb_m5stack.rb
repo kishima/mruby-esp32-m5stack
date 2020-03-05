@@ -15,4 +15,16 @@ module M5
 
   end
 
+  module Button
+    BtnA = 0
+    BtnB = 1
+    BtnC = 2
+  end
+
+  module BtnA
+    def self.is_pressed?
+      Button::is_pressed?(Button::BtnA)
+    end
+  end
+
 end
